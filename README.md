@@ -1,5 +1,5 @@
 # SSRS
-semantic segmentation of remote sensing
+Semantic Segmentation of Remote Sensing
 
 Our papers:
 
