@@ -3,7 +3,8 @@
 Run the code by: python traintrainAndtest
 
 
-Our code is heavily based on https://github.com/nshaud/DeepNetsForEO
+Our code is heavily based on https://github.com/nshaud/DeepNetsForEO.
+
 Please cite our paper if you find it is useful for your research.
 
 ```
