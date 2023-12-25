@@ -16,13 +16,9 @@ from torch.autograd import Variable
 from IPython.display import clear_output
 from model.UNetFormer import UNetFormer as UNetFormer
 from model.FTUNetFormer import ft_unetformer as FTUNetFormer
-from model.MAResUNet import MAResUNet
 from model.ABCNet import ABCNet
-from model.DCSwin import DCSwin
 from model.CMTFNet.CMTFNet import CMTFNet
-from model.TransUNet.vit_seg_modeling import VisionTransformer as TransUNet
-from model.TransUNet.vit_seg_modeling import CONFIGS as CONFIGS_ViT_seg
-from model.SwinUNet.vision_transformer import SwinUnet as SwinUNet
+
 try:
     from urllib.request import URLopener
 except ImportError:
