@@ -1,19 +1,19 @@
 # Semantic Segmentation for Remote Sensing
 
 This repo is the pyTorch implementation of some works related to remote sensing tasks. It currently includes code and models for the following tasks:
-> **SAM_RS**:
+> **SAM-based**:
 
 SAM_RS: [SAM-Assisted Remote Sensing Imagery Semantic Segmentation with Object and Boundary Constraints](https://arxiv.org/abs/2312.02464) (TGRS Undergoing Review).
 
 > **Unsupervised Domain Adaptation (UDA)**:
 
-GLGAN: Decomposition-based Unsupervised Domain Adaptation for Remote Sensing Images Semantic Segmentation(will be released...).
+GLGAN: Decomposition-based Unsupervised Domain Adaptation for Remote Sensing Images Semantic Segmentation (will be released...).
 
 MBATA_GAN: [Unsupervised Domain Adaptation Augmented by Mutually Boosted Attention for Semantic Segmentation of VHR Remote Sensing Images](https://ieeexplore.ieee.org/abstract/document/10032584/) (TGRS).
 
 > **Multimodal Fusion**:
 
-FTransUNet: A Multilevel Multimodal Fusion Transformer for Remote Sensing Semantic Segmentation(will be released...) (TGRS Undergoing Review).
+FTransUNet: A Multilevel Multimodal Fusion Transformer for Remote Sensing Semantic Segmentation (will be released...) (TGRS Undergoing Review).
 
 CMFNet: [A Crossmodal Multiscale Fusion Network for Semantic Segmentation of Remote Sensing Data](https://ieeexplore.ieee.org/abstract/document/9749821/) (JSTARS).
 
