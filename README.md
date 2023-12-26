@@ -1,12 +1,27 @@
-# SSRS
-Semantic Segmentation of Remote Sensing
+# Semantic Segmentation for Remote Sensing
 
-Our papers:
+This repo is the pyTorch implementation of some works related to remote sensing tasks. It currently includes code and models for the following tasks:
 
-SAM_RS for paper: [SAM-Assisted Remote Sensing Imagery Semantic Segmentation with Object and Boundary Constraints](https://arxiv.org/abs/2312.02464).
+> **Unsupervised Domain Adaptation (UDA)**: 
 
-MBATA-GAN for paper: [Unsupervised Domain Adaptation Augmented by Mutually Boosted Attention for Semantic Segmentation of VHR Remote Sensing Images](https://ieeexplore.ieee.org/abstract/document/10032584/).
+[Unsupervised Domain Adaptation Augmented by Mutually Boosted Attention for Semantic Segmentation of VHR Remote Sensing Images](https://ieeexplore.ieee.org/abstract/document/10032584/).
 
-CMFNet for paper: [A Crossmodal Multiscale Fusion Network for Semantic Segmentation of Remote Sensing Data](https://ieeexplore.ieee.org/abstract/document/9749821/).
+> **Multimodal Fusion**: 
 
-MSFNet for paper: [MSFNET: MULTI-STAGE FUSION NETWORK FOR SEMANTIC SEGMENTATION OF FINE-RESOLUTION REMOTE SENSING DATA](https://ieeexplore.ieee.org/abstract/document/9883789).
+[A Crossmodal Multiscale Fusion Network for Semantic Segmentation of Remote Sensing Data](https://ieeexplore.ieee.org/abstract/document/9749821/).
+
+[MSFNET: MULTI-STAGE FUSION NETWORK FOR SEMANTIC SEGMENTATION OF FINE-RESOLUTION REMOTE SENSING DATA](https://ieeexplore.ieee.org/abstract/document/9883789).
+
+## Reference
+
+- For **UDA**
+* AdaSegNet: https://github.com/wasidennis/AdaptSegNet
+
+- For **Multimodal Fusion**
+* FuseNet: https://github.com/MehmetAygun/fusenet-pytorch
+* v-FuseNet: https://github.com/nshaud/DeepNetsForEO
+* UCTransNet: https://github.com/McGregorWwww/UCTransNet
+* Swin-Unet: https://github.com/HuCaoFighting/Swin-Unet
+
+## Contact 
+Xianping Ma ([xianpingma@ling.cuhk.edu.cn](xianpingma@ling.cuhk.edu.cn)), ([ma.xianping125@gmail.com](haonan1wang@gmail.com))
