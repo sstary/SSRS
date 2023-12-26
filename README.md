@@ -1,6 +1,6 @@
 # Semantic Segmentation for Remote Sensing
 
-This repo is the pyTorch implementation of some works related to remote sensing tasks. It currently includes code and models for the following tasks:
+This repo is the PyTorch implementation of some works related to remote sensing tasks. It currently includes code and models for the following tasks:
 > **SAM-based**:
 
 SAM_RS: [SAM-Assisted Remote Sensing Imagery Semantic Segmentation with Object and Boundary Constraints](https://arxiv.org/abs/2312.02464) (TGRS Undergoing Review).

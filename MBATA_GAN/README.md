@@ -1,6 +1,11 @@
-**Unsupervised Domain Adaptation Augmented by Mutually Boosted Attention for Semantic Segmentation of VHR Remote Sensing Images**
+# [TGRS] MBATA_GAN
 
-Our code is heavily based on https://github.com/wasidennis/AdaptSegNet.
+This repo is the official implementation of ['Unsupervised domain adaptation augmented by mutually boosted attention for semantic segmentation of vhr remote sensing images'](https://ieeexplore.ieee.org/abstract/document/10032584/).
+
+![framework](https://github.com/sstary/SSRS/docs/MBATA_GAN.pdf)
+
+## Usage
+Run the code by: python DA_P2V.py
 
 Please cite our paper if you find it is useful for your research.
 
@@ -14,3 +19,4 @@ Please cite our paper if you find it is useful for your research.
   year={2023},
   publisher={IEEE}}
   ```
+

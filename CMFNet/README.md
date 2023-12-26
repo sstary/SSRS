@@ -1,9 +1,11 @@
-**A Crossmodal Multiscale Fusion Network for Semantic Segmentation of Remote Sensing Data**
+# [JSTARS] CMFNet
 
-Run the code by: python traintrainAndtest
+This repo is the official implementation of ['A Crossmodal Multiscale Fusion Network for Semantic Segmentation of Remote Sensing Data'](https://ieeexplore.ieee.org/abstract/document/9749821/).
 
+![framework](https://github.com/sstary/SSRS/docs/CMFNet.pdf)
 
-Our code is heavily based on https://github.com/nshaud/DeepNetsForEO.
+## Usage
+Run the code by: python traintrainAndtest.py
 
 Please cite our paper if you find it is useful for your research.
 
