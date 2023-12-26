@@ -1,15 +1,18 @@
 # Semantic Segmentation for Remote Sensing
 
 This repo is the pyTorch implementation of some works related to remote sensing tasks. It currently includes code and models for the following tasks:
-> **SAM_RS**: 
+> **SAM_RS**:
+
 SAM_RS: [SAM-Assisted Remote Sensing Imagery Semantic Segmentation with Object and Boundary Constraints](https://arxiv.org/abs/2312.02464) (TGRS Undergoing Review).
 
-> **Unsupervised Domain Adaptation (UDA)**: 
+> **Unsupervised Domain Adaptation (UDA)**:
+
 GLGAN: Decomposition-based Unsupervised Domain Adaptation for Remote Sensing Images Semantic Segmentation(will be released...).
 
 MBATA_GAN: [Unsupervised Domain Adaptation Augmented by Mutually Boosted Attention for Semantic Segmentation of VHR Remote Sensing Images](https://ieeexplore.ieee.org/abstract/document/10032584/) (TGRS).
 
-> **Multimodal Fusion**: 
+> **Multimodal Fusion**:
+
 FTransUNet: A Multilevel Multimodal Fusion Transformer for Remote Sensing Semantic Segmentation(will be released...) (TGRS Undergoing Review).
 
 CMFNet: [A Crossmodal Multiscale Fusion Network for Semantic Segmentation of Remote Sensing Data](https://ieeexplore.ieee.org/abstract/document/9749821/) (JSTARS).
@@ -19,10 +22,10 @@ MSFNet: [MSFNET: MULTI-STAGE FUSION NETWORK FOR SEMANTIC SEGMENTATION OF FINE-RE
 ## Reference
 * AdaSegNet: https://github.com/wasidennis/AdaptSegNet
 * UNetformer: https://github.com/WangLibo1995/GeoSeg
-* FuseNet: https://github.com/MehmetAygun/fusenet-pytorch
-* v-FuseNet: https://github.com/nshaud/DeepNetsForEO
 * UCTransNet: https://github.com/McGregorWwww/UCTransNet
 * Swin-Unet: https://github.com/HuCaoFighting/Swin-Unet
+* v-FuseNet: https://github.com/nshaud/DeepNetsForEO
+* FuseNet: https://github.com/MehmetAygun/fusenet-pytorch
 
 ## Citations
 If these codes are helpful for your study, please cite:
