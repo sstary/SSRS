@@ -1,6 +1,6 @@
 # Semantic Segmentation for Remote Sensing
 
-This repo is the PyTorch implementation of some works related to remote sensing tasks. It currently includes code and models for the following tasks:
+This repo is the PyTorch implementation of some works related to remote sensing tasks.
 
 ## Methods
 
