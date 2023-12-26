@@ -1,4 +1,4 @@
-# SAM_RS
+# [arxiv] SAM_RS
 
 This repo is the official implementation of ['SAM-Assisted Remote Sensing Imagery Semantic Segmentation with Object and Boundary Constraints'](https://arxiv.org/abs/2312.02464).
 
