@@ -2,10 +2,10 @@
 
 This repo is the official implementation of ['A Crossmodal Multiscale Fusion Network for Semantic Segmentation of Remote Sensing Data'](https://ieeexplore.ieee.org/abstract/document/9749821/).
 
-![framework](https://github.com/sstary/SSRS/docs/CMFNet.pdf)
+![framework](https://github.com/sstary/SSRS/blob/main/docs/CMFNet.pdf)
 
 ## Usage
-Run the code by: python traintrainAndtest.py
+Run the code by: python trainAndtest.py
 
 Please cite our paper if you find it is useful for your research.
 
