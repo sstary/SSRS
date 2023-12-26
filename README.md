@@ -20,14 +20,16 @@ CMFNet: [A Crossmodal Multiscale Fusion Network for Semantic Segmentation of Rem
 MSFNet: [MSFNET: MULTI-STAGE FUSION NETWORK FOR SEMANTIC SEGMENTATION OF FINE-RESOLUTION REMOTE SENSING DATA](https://ieeexplore.ieee.org/abstract/document/9883789) (IGARSS 2022).
 
 ## Reference
-- For UDA:
+
+-- For UDA:
 * TransGAN: https://github.com/VITA-Group/TransGAN
 * Advent: https://github.com/valeoai/ADVENT
 * AdaSegNet: https://github.com/wasidennis/AdaptSegNet
 
-- For Semantic Segmentation:
+-- For Semantic Segmentation:
 * UNetformer: https://github.com/WangLibo1995/GeoSeg
 * UCTransNet: https://github.com/McGregorWwww/UCTransNet
+* Swin-Transformer: https://github.com/microsoft/Swin-Transformer
 * Swin-Unet: https://github.com/HuCaoFighting/Swin-Unet
 * v-FuseNet: https://github.com/nshaud/DeepNetsForEO
 * FuseNet: https://github.com/MehmetAygun/fusenet-pytorch
