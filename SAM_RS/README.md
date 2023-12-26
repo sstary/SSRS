@@ -2,7 +2,7 @@
 
 This repo is the official implementation of ['SAM-Assisted Remote Sensing Imagery Semantic Segmentation with Object and Boundary Constraints'](https://arxiv.org/abs/2312.02464).
 
-![framework](https://github.com/sstary/SSRS/blob/main/docs/SAM_RS.pdf)
+![framework](https://github.com/sstary/SSRS/blob/main/docs/SAM_RS.png)
 
 ## Usage
 Run the code by: python train.py

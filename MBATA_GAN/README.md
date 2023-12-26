@@ -2,7 +2,7 @@
 
 This repo is the official implementation of ['Unsupervised domain adaptation augmented by mutually boosted attention for semantic segmentation of vhr remote sensing images'](https://ieeexplore.ieee.org/abstract/document/10032584/).
 
-![framework](https://github.com/sstary/SSRS/blob/main/docs/MBATA_GAN.pdf)
+![framework](https://github.com/sstary/SSRS/blob/main/docs/MBATA_GAN.png)
 
 ## Usage
 Run the code by: python DA_P2V.py
