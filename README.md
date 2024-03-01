@@ -13,14 +13,14 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 
 GLGAN (will be released...).
 
-[MBATA_GAN](https://ieeexplore.ieee.org/abstract/document/10032584/) (TGRS).
+[MBATA_GAN](https://ieeexplore.ieee.org/abstract/document/10032584/) (TGRS 2023).
 
 
 > **Multimodal Fusion**:
 
-FTransUNet (will be released...) (TGRS Undergoing Review).
+[FTransUNet](https://mypage.cuhk.edu.cn/academics/simonpun/papers/Xianping_TGRS-2024a.pdf) (TGRS 2024).
 
-[CMFNet](https://ieeexplore.ieee.org/abstract/document/9749821/) (JSTARS).
+[CMFNet](https://ieeexplore.ieee.org/abstract/document/9749821/) (JSTARS 2022).
 
 [MSFNet](https://ieeexplore.ieee.org/abstract/document/9883789) (IGARSS 2022).
 
@@ -31,6 +31,7 @@ For UDA:
 * [AdaSegNet](https://github.com/wasidennis/AdaptSegNet)
 
 For Semantic Segmentation:
+* [TransUNet](https://github.com/Beckschen/TransUNet)
 * [UNetformer](https://github.com/WangLibo1995/GeoSeg)
 * [UCTransNet](https://github.com/McGregorWwww/UCTransNet)
 * [Swin-Transformer](https://github.com/microsoft/Swin-Transformer)

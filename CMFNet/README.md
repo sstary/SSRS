@@ -1,4 +1,4 @@
-# [JSTARS] CMFNet
+# [JSTARS 2022] CMFNet
 
 This repo is the official implementation of ['A Crossmodal Multiscale Fusion Network for Semantic Segmentation of Remote Sensing Data'](https://ieeexplore.ieee.org/abstract/document/9749821/).
 
