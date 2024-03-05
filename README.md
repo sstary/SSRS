@@ -6,7 +6,7 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 
 > **SAM-based**:
 
-[SAM_RS](https://arxiv.org/abs/2312.02464) (TGRS Undergoing Review).
+[SAM_RS](https://arxiv.org/abs/2312.02464) (IEEE TGRS Undergoing Review).
 
 
 > **Unsupervised Domain Adaptation (UDA)**:
