@@ -13,16 +13,16 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 
 GLGAN (will be released...).
 
-[MBATA_GAN](https://ieeexplore.ieee.org/abstract/document/10032584/) (TGRS 2023).
+[MBATA_GAN](https://ieeexplore.ieee.org/abstract/document/10032584/) (IEEE TGRS 2023).
 
 
 > **Multimodal Fusion**:
 
-[FTransUNet](https://mypage.cuhk.edu.cn/academics/simonpun/papers/Xianping_TGRS-2024a.pdf) (TGRS 2024).
+[FTransUNet](https://mypage.cuhk.edu.cn/academics/simonpun/papers/Xianping_TGRS-2024a.pdf) (IEEE TGRS 2024).
 
-[CMFNet](https://ieeexplore.ieee.org/abstract/document/9749821/) (JSTARS 2022).
+[CMFNet](https://ieeexplore.ieee.org/abstract/document/9749821/) (IEEE JSTARS 2022).
 
-[MSFNet](https://ieeexplore.ieee.org/abstract/document/9883789) (IGARSS 2022).
+[MSFNet](https://ieeexplore.ieee.org/abstract/document/9883789) (IEEE IGARSS 2022).
 
 ## Reference
 For UDA:
