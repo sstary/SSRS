@@ -1,6 +1,6 @@
 # [TGRS 2024] FTransUNet
 
-This repo is the official implementation of ['A Multilevel Multimodal Fusion Transformer for Remote Sensing Semantic Segmentation'](https://mypage.cuhk.edu.cn/academics/simonpun/papers/Xianping_TGRS-2024a.pdf).
+This repo is the official implementation of ['A Multilevel Multimodal Fusion Transformer for Remote Sensing Semantic Segmentation'](https://ieeexplore.ieee.org/document/10458980).
 
 ![framework](https://github.com/sstary/SSRS/blob/main/docs/FTransUNet.png)
 
