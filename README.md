@@ -18,7 +18,7 @@ GLGAN (will be released...).
 
 > **Multimodal Fusion**:
 
-[FTransUNet](https://mypage.cuhk.edu.cn/academics/simonpun/papers/Xianping_TGRS-2024a.pdf) (IEEE TGRS 2024).
+[FTransUNet](https://ieeexplore.ieee.org/document/10458980) (IEEE TGRS 2024).
 
 [CMFNet](https://ieeexplore.ieee.org/abstract/document/9749821/) (IEEE JSTARS 2022).
 
@@ -42,6 +42,18 @@ For Semantic Segmentation:
 ## Citations
 If these codes are helpful for your study, please cite:
 ```
+
+@ARTICLE{10458980,
+  author={Ma, Xianping and Zhang, Xiaokang and Pun, Man-On and Liu, Ming},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={A Multilevel Multimodal Fusion Transformer for Remote Sensing Semantic Segmentation}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Multilevel Multimodal Fusion;Vision Transformer;Remote Sensing;Semantic Segmentation},
+  doi={10.1109/TGRS.2024.3373033}}
+
 @article{ma2023sam,
   title={SAM-Assisted Remote Sensing Imagery Semantic Segmentation with Object and Boundary Constraints},
   author={Ma, Xianping and Wu, Qianqian and Zhao, Xingyu and Zhang, Xiaokang and Pun, Man-On and Huang, Bo},
