@@ -15,6 +15,9 @@ Please cite our paper if you find it is useful for your research.
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={A Multilevel Multimodal Fusion Transformer for Remote Sensing Semantic Segmentation}, 
   year={2024},
-  pages={1-16},
-  doi={10.1109/TGRS.2024.3373033}}
+  volume={62},
+  number={},
+  pages={1-15},
+  doi={10.1109/TGRS.2024.3373033}
+}
   ```
