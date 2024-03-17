@@ -42,7 +42,6 @@ For Semantic Segmentation:
 ## Citations
 If these codes are helpful for your study, please cite:
 ```
-
 @ARTICLE{ma2024ftransunet,
   author={Ma, Xianping and Zhang, Xiaokang and Pun, Man-On and Liu, Ming},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
