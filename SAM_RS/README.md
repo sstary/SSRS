@@ -8,6 +8,7 @@ This repo is the official implementation of ['SAM-Assisted Remote Sensing Imager
 We provide image_split.py to split the large patch in ISPRS datasets and the output will be used for SAM pre-processing. The SAM pre-processing results are merged by image_merge.py to get the patch of the original size in ISPRS datasets.
 
 Train the model by: python train.py
+
 Draw the loss by: python draw_loss.py
 
 Please cite our paper if you find it is useful for your research.
