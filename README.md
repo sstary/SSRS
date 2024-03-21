@@ -39,6 +39,10 @@ For Semantic Segmentation:
 * [v-FuseNet](https://github.com/nshaud/DeepNetsForEO)
 * [FuseNet](https://github.com/MehmetAygun/fusenet-pytorch)
 
+## Other Works
+There are some other works in our group:
+> **Change Detection**: [GCD-DDPM]
+
 ## Citations
 If these codes are helpful for your study, please cite:
 ```
