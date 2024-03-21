@@ -42,6 +42,7 @@ For Semantic Segmentation:
 ## Other Works
 There are some other works in our group:
 > **Change Detection**: [GVLM](GVLM), [GCD-DDPM](https://github.com/udrs/GCD)
+
 > **Super-resolution**: [GCRDN](https://github.com/zxk688/GCRDN)
 
 ## Citations
