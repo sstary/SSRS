@@ -41,9 +41,9 @@ For Semantic Segmentation:
 
 ## Other Works
 There are some other works in our group:
-> **Change Detection**: [GVLM](https://github.com/zxk688/GVLM), [GCD-DDPM](https://github.com/udrs/GCD)
+> **Change Detection**: [GVLM](https://github.com/zxk688/GVLM) (ISPRS 2023), [GCD-DDPM](https://github.com/udrs/GCD) (IEEE TGRS 2024).
 
-> **Super-resolution**: [GCRDN](https://github.com/zxk688/GCRDN)
+> **Super-resolution**: [GCRDN](https://github.com/zxk688/GCRDN) (IEEE JSTARS 2023).
 
 ## Citations
 If these codes are helpful for your study, please cite:
