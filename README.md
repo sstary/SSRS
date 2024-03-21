@@ -41,6 +41,8 @@ For Semantic Segmentation:
 
 ## Other Works
 There are some other works in our group:
+> **Scene Classification**: [DF4LCZ] (https://github.com/ctrlovefly/DF4LCZ).
+
 > **Change Detection**: [GCD-DDPM](https://github.com/udrs/GCD) (IEEE TGRS 2024), [GVLM](https://github.com/zxk688/GVLM) (ISPRS 2023).
 
 > **Super-resolution**: [GCRDN](https://github.com/zxk688/GCRDN) (IEEE JSTARS 2023).
