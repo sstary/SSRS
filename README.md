@@ -41,7 +41,7 @@ For Semantic Segmentation:
 
 ## Other Works
 There are some other works in our group:
-> **Change Detection**: [GCD-DDPM]
+> **Change Detection**: [GCD-DDPM](https://github.com/udrs/GCD)
 
 ## Citations
 If these codes are helpful for your study, please cite:
