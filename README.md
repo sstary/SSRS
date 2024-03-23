@@ -45,7 +45,7 @@ There are some other works in our group:
 
 > **Change Detection**: [GCD-DDPM](https://github.com/udrs/GCD) (IEEE TGRS 2024), [GVLM](https://github.com/zxk688/GVLM) (ISPRS 2023).
 
-> **Super-resolution**: [GCRDN](https://github.com/zxk688/GCRDN) (IEEE JSTARS 2023).
+> **Super-resolution**: [ASDDPM](https://github.com/littlebeen/ASDDPM-Adaptive-Semantic-Enhanced-DDPM) (IEEE JSTARS Undergoing Review), [GCRDN](https://github.com/zxk688/GCRDN) (IEEE JSTARS 2023).
 
 ## Citations
 If these codes are helpful for your study, please cite:
