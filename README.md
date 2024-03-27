@@ -39,6 +39,9 @@ For Semantic Segmentation:
 * [v-FuseNet](https://github.com/nshaud/DeepNetsForEO)
 * [FuseNet](https://github.com/MehmetAygun/fusenet-pytorch)
 
+## Datasets
+All datasets including ISPRS Potsdam, ISPRS Vaihingen, loveDA can be downloaded [here](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/user_guides/2_dataset_prepare.md#prepare-datasets).
+
 ## Other Works
 There are some other works in our group:
 > **Scene Classification**: [DF4LCZ](https://github.com/ctrlovefly/DF4LCZ) (IEEE TGRS Undergoing Review).
