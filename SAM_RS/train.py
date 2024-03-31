@@ -183,7 +183,7 @@ elif MODE == 'Test':
     elif DATASET == 'Urban':
         net.load_state_dict(torch.load('./resultsu/YOUR_MODEL')) # sam
         net.eval()
-        MIoU, all_preds, all_gts = test(net, test_ids, all=True, stride=128)
+        MIoU, all_preds, all_gts = test(net, test_ids, all=True, stride=32)
         print("MIoU: ", MIoU)
         for p, id_ in zip(all_preds, test_ids):
             img = convert_to_color(p)
