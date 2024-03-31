@@ -149,7 +149,7 @@ class ISPRS_dataset(torch.utils.data.Dataset):
 
     def __len__(self):
         # Default epoch size is 10 000 samples
-        return BATCH_SIZE * 100
+        return BATCH_SIZE * 1000
 
     @classmethod
     def data_augmentation(cls, *arrays, flip=True, mirror=True):
