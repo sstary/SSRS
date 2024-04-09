@@ -8,6 +8,9 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 
 [SAM_RS](https://arxiv.org/abs/2312.02464) (IEEE TGRS Undergoing Review).
 
+> **Mamba-based**:
+
+[RS^3Mamba](https://arxiv.org/abs/2404.02457) (In Prepare).
 
 > **Unsupervised Domain Adaptation (UDA)**:
 
@@ -39,6 +42,11 @@ For Semantic Segmentation:
 * [v-FuseNet](https://github.com/nshaud/DeepNetsForEO)
 * [FuseNet](https://github.com/MehmetAygun/fusenet-pytorch)
 
+For Semantic Segmentation based on Mamba:
+* [VMamba](https://github.com/MzeroMiko/VMamba)
+* [VM-UNet](https://github.com/JCruan519/VM-UNet)
+* [Swin-UMamba](https://github.com/JiarunLiu/Swin-UMamba)
+
 ## Datasets
 All datasets including ISPRS Potsdam, ISPRS Vaihingen, loveDA can be downloaded [here](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/user_guides/2_dataset_prepare.md#prepare-datasets).
 
@@ -53,6 +61,13 @@ There are some other works in our group:
 ## Citations
 If these codes are helpful for your study, please cite:
 ```
+@article{ma2024rs3mamba,
+  title={RS3Mamba: Visual State Space Model for Remote Sensing Images Semantic Segmentation},
+  author={Ma, Xianping and Zhang, Xiaokang and Pun, Man-On},
+  journal={arXiv preprint arXiv:2404.02457},
+  year={2024}
+}
+
 @ARTICLE{ma2024ftransunet,
   author={Ma, Xianping and Zhang, Xiaokang and Pun, Man-On and Liu, Ming},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
