@@ -5,7 +5,7 @@ This repo is the official implementation of ['RS3Mamba: Visual State Space Model
 ![framework](https://github.com/sstary/SSRS/blob/main/docs/RS3Mamba.png)
 
 ## Usage
-We successfully installed causal_conv1d, mamba_ssm package according to [VM-UNet](https://github.com/JCruan519/VM-UNet).
+We successfully installed causal_conv1d, mamba_ssm packages according to [VM-UNet](https://github.com/JCruan519/VM-UNet).
 
 We use the ImageNet pretrained VMamba-Tiny model from [VMamba](https://github.com/MzeroMiko/VMamba).
 
