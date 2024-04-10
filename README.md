@@ -14,7 +14,7 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 
 > **Unsupervised Domain Adaptation (UDA)**:
 
-GLGAN (will be released...).
+GLGAN (ISPRS Undergoing Review).
 
 [MBATA_GAN](https://ieeexplore.ieee.org/abstract/document/10032584/) (IEEE TGRS 2023).
 
