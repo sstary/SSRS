@@ -105,14 +105,6 @@ def save_img(tensor, name):
     im = (im.data.numpy() * 255.).astype(np.uint8)
     Image.fromarray(im).save(name + '.jpg')
 
-def object_process(object):
-    ids = np.unique(object)
-    new_id = 1
-    for id in ids[1:]:
-        object = np.where(object == id, new_id, object)
-        new_id += 1
-    return object
-
 class ISPRS_dataset(torch.utils.data.Dataset):
     def __init__(self, ids, data_files=DATA_FOLDER, label_files=LABEL_FOLDER,
                  cache=False, augmentation=True):
@@ -199,9 +191,7 @@ class ISPRS_dataset(torch.utils.data.Dataset):
         label_p = label[x1:x2, y1:y2]
 
         # Data augmentation
-        # data_p, boundary_p, label_p = self.data_augmentation(data_p, boundary_p, label_p)
         data_p, label_p = self.data_augmentation(data_p, label_p)
-        object_p = object_process(object_p)
 
         # Return the torch.Tensor values
         return (torch.from_numpy(data_p),

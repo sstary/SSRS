@@ -113,7 +113,7 @@ def train(net, optimizer, epochs, scheduler=None, weights=WEIGHTS, save_epoch=1)
         if scheduler is not None:
             scheduler.step()
         net.train()
-        for batch_idx, (data, boundary, object, target) in enumerate(train_loader):
+        for batch_idx, (data, target) in enumerate(train_loader):
             data, target = Variable(data.cuda()), Variable(target.cuda())
             optimizer.zero_grad()
             output = net(data)
