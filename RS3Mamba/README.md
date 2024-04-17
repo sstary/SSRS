@@ -7,7 +7,7 @@ This repo is the official implementation of ['RS3Mamba: Visual State Space Model
 ## Usage
 We successfully installed causal_conv1d, mamba_ssm packages according to [VM-UNet](https://github.com/JCruan519/VM-UNet).
 
-We use the ImageNet pretrained VMamba-Tiny model from [VMamba](https://github.com/MzeroMiko/VMamba).
+We use the ImageNet pretrained VMamba-Tiny model from [VMamba](https://github.com/MzeroMiko/VMamba) and [Sigma](https://github.com/zifuwan/Sigma).
 
 Train the model by: python train_Mamba.py
 
