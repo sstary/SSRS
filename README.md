@@ -10,7 +10,7 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 
 > **Mamba-based**:
 
-[RS^3Mamba](https://arxiv.org/abs/2404.02457) (In Prepare).
+[RS^3Mamba](https://arxiv.org/abs/2404.02457) (GRSL Undergoing Review).
 
 > **Unsupervised Domain Adaptation (UDA)**:
 
