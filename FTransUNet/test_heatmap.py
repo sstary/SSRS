@@ -29,6 +29,7 @@ nvmlInit()
 handle = nvmlDeviceGetHandleByIndex(int(os.environ["CUDA_VISIBLE_DEVICES"]))
 print("Device :", nvmlDeviceGetName(handle))
 
+BATCH_SIZE = 1
 config_vit = CONFIGS_ViT_seg['R50-ViT-B_16']
 config_vit.n_classes = 6
 config_vit.n_skip = 3
