@@ -6,6 +6,7 @@ This repo is the official implementation of ['A Multilevel Multimodal Fusion Tra
 
 ## Usage
 Run the code by: python train.py
+Test your model and draw the heatmaps by: python test_heatmap.py
 
 Please cite our paper if you find it is useful for your research.
 
