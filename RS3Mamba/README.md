@@ -1,4 +1,4 @@
-# [GRSL Undergoing Review] RS^3Mamba
+# [IEEE GRSL 2024] RS^3Mamba
 
 This repo is the official implementation of ['RS3Mamba: Visual State Space Model for Remote Sensing Images Semantic Segmentation'](https://arxiv.org/abs/2404.02457).
 
