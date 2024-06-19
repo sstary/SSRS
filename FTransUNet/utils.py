@@ -38,7 +38,7 @@ ERODED_FOLDER = MAIN_FOLDER + 'gts_eroded_for_participants/top_mosaic_09cm_area{
 #              '4_12', '6_8', '6_12', '6_7', '4_11']
 # test_ids = ['4_10', '5_11', '2_11', '3_10', '6_11', '7_12']
 # DATASET = 'Potsdam'
-# Stride_Size = 32
+# Stride_Size = 128 # for quickly training
 # MAIN_FOLDER = FOLDER + 'Potsdam/'
 # DATA_FOLDER = MAIN_FOLDER + '4_Ortho_RGBIR/top_potsdam_{}_RGBIR.tif'
 # DSM_FOLDER = MAIN_FOLDER + '1_DSM_normalisation/dsm_potsdam_{}_normalized_lastools.jpg'
