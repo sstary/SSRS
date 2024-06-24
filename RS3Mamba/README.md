@@ -1,6 +1,6 @@
 # [IEEE GRSL 2024] RS^3Mamba
 
-This repo is the official implementation of ['RS3Mamba: Visual State Space Model for Remote Sensing Images Semantic Segmentation'](https://arxiv.org/abs/2404.02457).
+This repo is the official implementation of ['RS3Mamba: Visual State Space Model for Remote Sensing Images Semantic Segmentation'](https://ieeexplore.ieee.org/abstract/document/10556777).
 
 ![framework](https://github.com/sstary/SSRS/blob/main/docs/RS3Mamba.png)
 
@@ -14,9 +14,12 @@ Train the model by: python train_Mamba.py
 Please cite our paper if you find it is useful for your research.
 
 ```
-@article{ma2024rs3mamba,
-  title={RS3Mamba: Visual State Space Model for Remote Sensing Images Semantic Segmentation},
+@ARTICLE{10556777,
   author={Ma, Xianping and Zhang, Xiaokang and Pun, Man-On},
-  journal={arXiv preprint arXiv:2404.02457},
-  year={2024}}
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={RS3Mamba: Visual State Space Model for Remote Sensing Image Semantic Segmentation}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1}}
   ```
