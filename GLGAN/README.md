@@ -6,6 +6,7 @@ This repo is the official implementation of ['Frequency Decomposition-Driven Uns
 
 ## Usage
 Run the GLGAN by: python GLGAN_*.py
+
 Run the decomposition-based GLGAN by: python FDGLGAN_*.py
 
 Please cite our paper if you find it is useful for your research.
