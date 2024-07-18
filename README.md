@@ -61,6 +61,13 @@ There are some other works in our group:
 ## Citations
 If these codes are helpful for your study, please cite:
 ```
+@article{ma2024frequency,
+  title={Frequency Decomposition-Driven Unsupervised Domain Adaptation for Remote Sensing Image Semantic Segmentation},
+  author={Ma, Xianping and Zhang, Xiaokang and Ding, Xingchen and Pun, Man-On and Ma, Siwei},
+  journal={arXiv preprint arXiv:2404.04531},
+  year={2024}
+}
+
 @ARTICLE{10556777,
   author={Ma, Xianping and Zhang, Xiaokang and Pun, Man-On},
   journal={IEEE Geoscience and Remote Sensing Letters}, 
