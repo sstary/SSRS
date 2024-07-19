@@ -52,7 +52,7 @@ All datasets including ISPRS Potsdam, ISPRS Vaihingen, loveDA can be downloaded 
 
 ## Other Works
 There are some other works in our group:
-> **Scene Classification**: [DF4LCZ](https://github.com/ctrlovefly/DF4LCZ) (IEEE TGRS Undergoing Review).
+> **Scene Classification**: [DF4LCZ](https://github.com/ctrlovefly/DF4LCZ) (IEEE TGRS 2024).
 
 > **Change Detection**: [GCD-DDPM](https://github.com/udrs/GCD) (IEEE TGRS 2024), [GVLM](https://github.com/zxk688/GVLM) (ISPRS 2023).
 
