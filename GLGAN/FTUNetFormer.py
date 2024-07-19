@@ -1026,11 +1026,5 @@ def ft_unetformer(pretrained=True, num_classes=6, freeze_stages=-1, decoder_chan
         model_dict = model.state_dict()
         old_dict = {'backbone.'+ k: v for k, v in old_dict.items() if ('backbone.' + k in model_dict)}
         model_dict.update(old_dict)
-        del model_dict['backbone.layers.0.blocks.1.attn_mask']
-        del model_dict['backbone.layers.1.blocks.1.attn_mask']
-        del model_dict['backbone.layers.3.blocks.0.attn.relative_position_index']
-        del model_dict['backbone.layers.3.blocks.0.attn.relative_coords_table']
-        del model_dict['backbone.layers.3.blocks.1.attn.relative_position_index']
-        del model_dict['backbone.layers.3.blocks.1.attn.relative_coords_table']
-        model.load_state_dict(model_dict, strict=False)
+        model.load_state_dict(model_dict)
     return model
