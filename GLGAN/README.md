@@ -5,7 +5,7 @@ This repo is the official implementation of ['Frequency Decomposition-Driven Uns
 ![framework](https://github.com/sstary/SSRS/blob/main/docs/GLGAN.png)
 
 ## Usage
-Please download the official pre-trained weights from ['Swin Transformer']([https://arxiv.org/abs/2404.04531](https://github.com/microsoft/Swin-Transformer))--'ImageNet-1K and ImageNet-22K Pretrained Swin-V2 Models'.
+Please download the official pre-trained weights from ['Swin Transformer'](https://github.com/microsoft/Swin-Transformer)--'ImageNet-1K and ImageNet-22K Pretrained Swin-V2 Models'.
 
 Run the GLGAN by: python GLGAN_*.py
 
