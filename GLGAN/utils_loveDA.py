@@ -93,7 +93,7 @@ def save_img(tensor, name):
     im = (im.data.numpy() * 255.).astype(np.uint8)
     Image.fromarray(im).save(name + '.jpg')
 
-WINDOW_SIZE = (1024, 1024)
+WINDOW_SIZE = (256, 256)
 class ISPRS_dataset(torch.utils.data.Dataset):
     def __init__(self, ids_s, ids_t, dataset_s, dataset_t, data_files_s, data_files_t, label_files_s, label_files_t,
                  cache=False, RGB_flag=False, augmentation=True):
@@ -192,13 +192,13 @@ class ISPRS_dataset(torch.utils.data.Dataset):
                 self.label_cache_t[random_idx_t] = label_t
 
         # # Get a random patch
-        # x1, x2, y1, y2 = get_random_pos(data_s, WINDOW_SIZE)
-        # data_s = data_s[:, x1:x2, y1:y2]
-        # label_s = label_s[x1:x2, y1:y2]
+        x1, x2, y1, y2 = get_random_pos(data_s, WINDOW_SIZE)
+        data_s = data_s[:, x1:x2, y1:y2]
+        label_s = label_s[x1:x2, y1:y2]
 
-        # x1, x2, y1, y2 = get_random_pos(data_t, WINDOW_SIZE)
-        # data_t = data_t[:, x1:x2, y1:y2]
-        # label_t = label_t[x1:x2, y1:y2]
+        x1, x2, y1, y2 = get_random_pos(data_t, WINDOW_SIZE)
+        data_t = data_t[:, x1:x2, y1:y2]
+        label_t = label_t[x1:x2, y1:y2]
 
         # Data augmentation
         data_s, label_s = self.data_augmentation(data_s, label_s)
