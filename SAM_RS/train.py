@@ -11,13 +11,20 @@ import torch.utils.data as data
 import torch.optim as optim
 import torch.optim.lr_scheduler
 import torch.nn.init
-from utils import *
 from torch.autograd import Variable
 from IPython.display import clear_output
 from model.UNetFormer import UNetFormer as UNetFormer
 from model.FTUNetFormer import ft_unetformer as FTUNetFormer
 from model.ABCNet import ABCNet
 from model.CMTFNet.CMTFNet import CMTFNet
+
+DATASET = 'Vaihingen'
+# DATASET = 'Urban'
+
+if DATASET == 'Vaihingen':
+    from utils import *
+elif DATASET == 'Urban':
+     from utils_loveda import *
 
 try:
     from urllib.request import URLopener
