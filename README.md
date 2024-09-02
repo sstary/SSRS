@@ -6,7 +6,7 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 
 > **SAM-based**:
 
-[SAM_RS](https://arxiv.org/abs/2312.02464) (IEEE TGRS 2024).
+[SAM_RS](https://ieeexplore.ieee.org/abstract/document/10636322) (IEEE TGRS 2024).
 
 > **Mamba-based**:
 
