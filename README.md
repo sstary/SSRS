@@ -90,11 +90,14 @@ If these codes are helpful for your study, please cite:
 }
 
 @article{ma2023sam,
-  title={SAM-Assisted Remote Sensing Imagery Semantic Segmentation with Object and Boundary Constraints},
   author={Ma, Xianping and Wu, Qianqian and Zhao, Xingyu and Zhang, Xiaokang and Pun, Man-On and Huang, Bo},
-  journal={arXiv preprint arXiv:2312.02464},
-  year={2023}
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={SAM-Assisted Remote Sensing Imagery Semantic Segmentation With Object and Boundary Constraints}, 
+  year={2024},
+  volume={62},
+  pages={1-16},
 }
+
 
 @article{ma2023unsupervised,
   title={Unsupervised domain adaptation augmented by mutually boosted attention for semantic segmentation of vhr remote sensing images},
