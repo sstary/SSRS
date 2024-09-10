@@ -14,7 +14,7 @@ Draw the loss by: python draw_loss.py
 Please cite our paper if you find it is useful for your research.
 
 ```
-@article{ma2023sam,
+@article{ma2024sam,
   author={Ma, Xianping and Wu, Qianqian and Zhao, Xingyu and Zhang, Xiaokang and Pun, Man-On and Huang, Bo},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={SAM-Assisted Remote Sensing Imagery Semantic Segmentation With Object and Boundary Constraints}, 
