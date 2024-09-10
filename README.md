@@ -68,7 +68,7 @@ If these codes are helpful for your study, please cite:
   year={2024}
 }
 
-@ARTICLE{10556777,
+@ARTICLE{ma2024rs3mamba,
   author={Ma, Xianping and Zhang, Xiaokang and Pun, Man-On},
   journal={IEEE Geoscience and Remote Sensing Letters}, 
   title={RS3Mamba: Visual State Space Model for Remote Sensing Image Semantic Segmentation}, 
@@ -89,7 +89,7 @@ If these codes are helpful for your study, please cite:
   doi={10.1109/TGRS.2024.3373033}
 }
 
-@article{ma2023sam,
+@article{ma2024sam,
   author={Ma, Xianping and Wu, Qianqian and Zhao, Xingyu and Zhang, Xiaokang and Pun, Man-On and Huang, Bo},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={SAM-Assisted Remote Sensing Imagery Semantic Segmentation With Object and Boundary Constraints}, 
@@ -97,7 +97,6 @@ If these codes are helpful for your study, please cite:
   volume={62},
   pages={1-16},
 }
-
 
 @article{ma2023unsupervised,
   title={Unsupervised domain adaptation augmented by mutually boosted attention for semantic segmentation of vhr remote sensing images},
