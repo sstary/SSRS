@@ -14,12 +14,13 @@ Train the model by: python train_Mamba.py
 Please cite our paper if you find it is useful for your research.
 
 ```
-@ARTICLE{10556777,
+@ARTICLE{ma2024rs3mamba,
   author={Ma, Xianping and Zhang, Xiaokang and Pun, Man-On},
   journal={IEEE Geoscience and Remote Sensing Letters}, 
   title={RS3Mamba: Visual State Space Model for Remote Sensing Image Semantic Segmentation}, 
   year={2024},
   volume={},
   number={},
-  pages={1-1}}
+  pages={1-1}
+}
   ```
