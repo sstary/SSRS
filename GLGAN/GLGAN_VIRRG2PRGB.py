@@ -287,7 +287,7 @@ def train(epochs, weights=WEIGHTS, save_epoch=2):
                     MIoU_best = MIoU
     print("Train Done!!")
 
-train(50)
+train(100)
 
 # # ######   test   ####
 # model.load_state_dict(torch.load('./Train_Model/YOUR_MODEL'))
