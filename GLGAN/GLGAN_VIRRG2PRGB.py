@@ -154,7 +154,7 @@ def test(test_ids, all=False, stride=WINDOW_SIZE[0], batch_size=BATCH_SIZE, wind
                 image_patches = Variable(torch.from_numpy(image_patches).cuda(), volatile=True)
 
                 # Do the inference
-                _, pred2 = model(image_patches)
+                pred2, _ = model(image_patches)
                 outs = F.softmax(pred2, dim=1)
                 outs = outs.data.cpu().numpy()
 
@@ -209,7 +209,7 @@ def train(epochs, weights=WEIGHTS, save_epoch=2):
 
             # train with source
             images = Variable(images).cuda()
-            pred1, pred2 = model(images)
+            pred2, pred1 = model(images)
             loss_seg1 = loss_calc(pred1, labels, weights)
             loss_seg2 = loss_calc(pred2, labels, weights)
             loss = (LAMBDA_SEG_MAIN * loss_seg2
@@ -218,7 +218,7 @@ def train(epochs, weights=WEIGHTS, save_epoch=2):
 
             # train with target
             images_t = Variable(images_t).cuda()
-            pred_target1, pred_target2 = model(images_t)
+            pred_target2, pred_target1 = model(images_t)
             D_out1 = d_aux(prob_2_entropy(F.softmax(pred_target1, dim=1)))
             D_out2 = d_main(prob_2_entropy(F.softmax(pred_target2, dim=1)))
             loss_adv_target1 = bce_loss(D_out1, source_label)
