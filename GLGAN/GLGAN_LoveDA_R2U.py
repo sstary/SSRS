@@ -302,7 +302,7 @@ def train(epochs, weights=WEIGHTS, save_epoch=2):
 train(100)
 
 # ####   test   ####
-# model.load_state_dict(torch.load('./Train_Model/UNetFormer_ori_R2U_epoch4_0.48148456951034185'))
+# model.load_state_dict(torch.load('./Train_Model/YOUR_MODEL'))
 
 # acc, all_preds, all_gts = test(test_ids_U, all=True, stride=32)
 # print("Acc: ", acc)
