@@ -297,7 +297,7 @@ def train(epochs, weights=WEIGHTS, save_epoch=2):
 # train(100)
 
 ######   test   ####
-model.load_state_dict(torch.load('./Train_Model/UNetFormer_V2P_epoch63_0.6141165054038286'))
+model.load_state_dict(torch.load('./Train_Model/YOUR_MODEL'))
 acc, all_preds, all_gts = test(test_ids_V, all=True, stride=32)
 print("Acc: ", acc)
 for p, id_ in zip(all_preds, test_ids_V):
