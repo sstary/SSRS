@@ -1,6 +1,6 @@
-# [TGRS Undergoing Review] GLGAN
+# [IEEE TGRS 2024] GLGAN/De-GLGAN
 
-This repo is the official implementation of ['Frequency Decomposition-Driven Unsupervised Domain Adaptation for Remote Sensing Image Semantic Segmentation'](https://arxiv.org/abs/2404.04531).
+This repo is the official implementation of ['Decomposition-based Unsupervised Domain Adaptation for Remote Sensing Image Semantic Segmentation'](https://ieeexplore.ieee.org/document/10721444).
 
 ![framework](https://github.com/sstary/SSRS/blob/main/docs/GLGAN.png)
 
