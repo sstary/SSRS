@@ -37,6 +37,10 @@ For UDA:
 * [Advent](https://github.com/valeoai/ADVENT)
 * [AdaSegNet](https://github.com/wasidennis/AdaptSegNet)
 
+For Segment Anything Model:
+* [Medical-SAM-Adapter](https://github.com/MedicineToken/Medical-SAM-Adapter/tree/main)
+* [SAM](https://github.com/facebookresearch/segment-anything)
+
 For Semantic Segmentation:
 * [TransUNet](https://github.com/Beckschen/TransUNet)
 * [UNetformer](https://github.com/WangLibo1995/GeoSeg)
