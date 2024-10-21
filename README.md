@@ -5,21 +5,21 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 ## Methods
 
 > **SAM-based**:
+[MANet](https://arxiv.org/abs/2410.11160) (arxiv)
 
 [SAM_RS](https://ieeexplore.ieee.org/abstract/document/10636322) (IEEE TGRS 2024).
 
 > **Mamba-based**:
-
 [RS^3Mamba](https://ieeexplore.ieee.org/abstract/document/10556777) (IEEE GRSL 2024).
 
 > **Unsupervised Domain Adaptation (UDA)**:
-
-[GLGAN](https://arxiv.org/abs/2404.04531) (TGRS Undergoing Review).
+[GLGAN](https://arxiv.org/abs/2404.04531) (IEEE TGRS 2024).
 
 [MBATA_GAN](https://ieeexplore.ieee.org/abstract/document/10032584/) (IEEE TGRS 2023).
 
 
 > **Multimodal Fusion**:
+[MANet](https://arxiv.org/abs/2410.11160) (arxiv)
 
 [FTransUNet](https://ieeexplore.ieee.org/document/10458980) (IEEE TGRS 2024).
 
