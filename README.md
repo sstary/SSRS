@@ -58,6 +58,9 @@ For Semantic Segmentation based on Mamba:
 ## Datasets
 All datasets including ISPRS Potsdam, ISPRS Vaihingen, loveDA can be downloaded [here](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/user_guides/2_dataset_prepare.md#prepare-datasets).
 
+## Scripts
+There are some scripts in utils folder including: split images, merge images, draw loss curves.
+
 ## Other Works
 There are some other works in our group:
 > **Scene Classification**: [DF4LCZ](https://github.com/ctrlovefly/DF4LCZ) (IEEE TGRS 2024).
