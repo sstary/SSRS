@@ -25,7 +25,7 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 
 [MANet](https://arxiv.org/abs/2410.11160) (arxiv)
 
-[ASMFNet] (IEEE JSTARS 2024)
+[ASMFNet](https://ieeexplore.ieee.org/document/10736654) (IEEE JSTARS 2024)
 
 [FTransUNet](https://ieeexplore.ieee.org/document/10458980) (IEEE TGRS 2024).
 
