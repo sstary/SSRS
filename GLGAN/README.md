@@ -15,9 +15,13 @@ Please cite our paper if you find it is useful for your research.
 
 ```
 @article{ma2024frequency,
-  title={Frequency Decomposition-Driven Unsupervised Domain Adaptation for Remote Sensing Image Semantic Segmentation},
   author={Ma, Xianping and Zhang, Xiaokang and Ding, Xingchen and Pun, Man-On and Ma, Siwei},
-  journal={arXiv preprint arXiv:2404.04531},
-  year={2024}}
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Decomposition-Based Unsupervised Domain Adaptation for Remote Sensing Image Semantic Segmentation}, 
+  year={2024},
+  volume={62},
+  number={},
+  pages={1-18}
+}
   ```
 
