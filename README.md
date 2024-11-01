@@ -121,6 +121,16 @@ If these codes are helpful for your study, please cite:
   publisher={IEEE}
 }
 
+@ARTICLE{ma2024asmfnet,
+  author={Ma, Xianping and Xu, Xichen and Zhang, Xiaokang and Pun, Man-On},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+  title={Adjacent-Scale Multimodal Fusion Networks for Semantic Segmentation of Remote Sensing Data}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-13}
+}
+
 @article{ma2022crossmodal,
   title={A crossmodal multiscale fusion network for semantic segmentation of remote sensing data},
   author={Ma, Xianping and Zhang, Xiaokang and Pun, Man-On},
