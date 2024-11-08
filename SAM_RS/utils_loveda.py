@@ -391,7 +391,14 @@ class ObjectLoss(nn.Module):
       
     return total_object_loss
   
-def forward(self, pred, gt):
+class BoundaryLoss(nn.Module):
+    def __init__(self, theta0=3, theta=5):
+        super().__init__()
+
+        self.theta0 = theta0
+        self.theta = theta
+
+    def forward(self, pred, gt):
         """
         Input:
             - pred: the output from model (before softmax)
