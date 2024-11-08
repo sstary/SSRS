@@ -4,6 +4,9 @@ This repo is the official implementation of ['SAM-Assisted Remote Sensing Imager
 
 ![framework](https://github.com/sstary/SSRS/blob/main/docs/SAM_RS.png)
 
+## Update
+Thanks to the contribution of @WanZhan-lucky. We have corrected the mistake in boundary loss and provided a simple boundary extraction algorithm to get the model's boundary predictions from the prediction map. It will work with the SGB to calculate the boundary loss. Please refer to issue 52 (SAM_RS：Boundary Loss Correction) for more details.
+
 ## Usage
 We provide image_split.py to split the large patch in ISPRS datasets and the output will be used for SAM pre-processing. The SAM pre-processing results are merged by image_merge.py to get the patch of the original size in ISPRS datasets.
 

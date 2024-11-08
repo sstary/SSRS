@@ -429,8 +429,8 @@ def forward(self, pred, gt):
         gt_b -= 1 - gt
 
         pred_b = F.max_pool2d(
-            1 - pred, kernel_size=self.theta0, stride=1, padding=(self.theta0 - 1) // 2)
-        pred_b -= 1 - pred
+            1 - boundary_map, kernel_size=self.theta0, stride=1, padding=(self.theta0 - 1) // 2)
+        pred_b -= 1 - boundary_map
 
         # extended boundary map
         gt_b_ext = F.max_pool2d(
