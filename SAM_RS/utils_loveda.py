@@ -412,23 +412,7 @@ class BoundaryLoss(nn.Module):
         n, _, _, _ = pred.shape
         # softmax so that predicted map can be distributed in [0, 1]
         pred = torch.softmax(pred, dim=1)
-        pred = pred.argmax(dim=1).cpu()  # Get Class Map with the Shape: [B, H, W]
-
-        ### Other edge detection algorithms are also encoduraged to be used
-        ### for boundary extraction from prediction map such as Canny edge detection
-        # Shift class map in four directions
-        shift_up = torch.roll(pred, shifts=-1, dims=1)
-        shift_down = torch.roll(pred, shifts=1, dims=1)
-        shift_left = torch.roll(pred, shifts=-1, dims=2)
-        shift_right = torch.roll(pred, shifts=1, dims=2)
-        # Compute boundaries by finding differences in class labels
-        boundary_up = (pred != shift_up).int()
-        boundary_down = (pred != shift_down).int()
-        boundary_left = (pred != shift_left).int()
-        boundary_right = (pred != shift_right).int()
-        # Combine the boundary maps to get a single boundary prediction
-        boundary_map = (boundary_up + boundary_down + boundary_left + boundary_right) > 0
-        boundary_map = boundary_map.int()
+        class_map = pred.argmax(dim=1).cpu()  # Get Class Map with the Shape: [B, H, W]
 
         # boundary map
         gt_b = F.max_pool2d(
@@ -436,8 +420,8 @@ class BoundaryLoss(nn.Module):
         gt_b -= 1 - gt
 
         pred_b = F.max_pool2d(
-            1 - boundary_map, kernel_size=self.theta0, stride=1, padding=(self.theta0 - 1) // 2)
-        pred_b -= 1 - boundary_map
+            1 - class_map, kernel_size=self.theta0, stride=1, padding=(self.theta0 - 1) // 2)
+        pred_b -= 1 - class_map
 
         # extended boundary map
         gt_b_ext = F.max_pool2d(
