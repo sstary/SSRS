@@ -5,6 +5,9 @@ This repo is the official implementation of ['A Multilevel Multimodal Fusion Tra
 ![framework](https://github.com/sstary/SSRS/blob/main/docs/FTransUNet.png)
 
 ## Usage
+you can get the pre-trained model here: https://console.cloud.google.com/storage/browser/vit_models
+in the folder: vit_models/imagenet21k/
+
 Run the code by: python train.py
 
 Test your model and draw the heatmaps by: python test_heatmap.py
