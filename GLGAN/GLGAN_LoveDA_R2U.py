@@ -19,7 +19,6 @@ import os
 import time
 from utils_loveDA import *
 from transdiscri import transDiscri
-from discriminator import get_fc_discriminator
 from FTUNetFormer import ft_unetformer as ViT_seg
 from func import loss_calc, bce_loss
 from loss import entropy_loss

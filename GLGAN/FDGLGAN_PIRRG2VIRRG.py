@@ -18,7 +18,7 @@ from IPython.display import clear_output
 import os
 import time
 from utils import *
-from transdiscri import transDiscri, decom_transDiscri, high_transDiscri
+from transdiscri import transDiscri
 from FTUNetFormer_11 import ft_unetformer as ViT_seg
 from func import loss_calc, bce_loss
 from loss import entropy_loss
