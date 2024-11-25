@@ -5,7 +5,7 @@ This repo is the official implementation of ['MFNet: Fine-Tuning Segment Anythin
 ![framework](https://github.com/sstary/SSRS/blob/main/docs/MFNet.png)
 
 ## Usage
-you can get the pre-trained model here: https://github.com/facebookresearch/segment-anything?tab=readme-ov-file#model-checkpoints
+You can get the pre-trained model here: https://github.com/facebookresearch/segment-anything?tab=readme-ov-file#model-checkpoints
 
 The core modules are in ./MedSAM/models/ImageEncoder and ./MedSAM/models/sam
 
