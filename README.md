@@ -6,7 +6,7 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 
 > **SAM-based**:
 
-[MANet](https://arxiv.org/abs/2410.11160) (arxiv)
+[MFNet](https://arxiv.org/abs/2410.11160) (arxiv)
 
 [SAM_RS](https://ieeexplore.ieee.org/abstract/document/10636322) (IEEE TGRS 2024).
 
@@ -23,7 +23,7 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 
 > **Multimodal Fusion**:
 
-[MANet](https://arxiv.org/abs/2410.11160) (arxiv)
+[MFNet](https://arxiv.org/abs/2410.11160) (arxiv)
 
 [ASMFNet](https://ieeexplore.ieee.org/document/10736654) (IEEE JSTARS 2024)
 
@@ -74,6 +74,13 @@ There are some other works in our group:
 ## Citations
 If these codes are helpful for your study, please cite:
 ```
+@article{ma2024manet,
+  title={MANet: Fine-Tuning Segment Anything Model for Multimodal Remote Sensing Semantic Segmentation},
+  author={Ma, Xianping and Zhang, Xiaokang and Pun, Man-On and Huang, Bo},
+  journal={arXiv preprint arXiv:2410.11160},
+  year={2024}
+}
+
 @article{ma2024frequency,
   author={Ma, Xianping and Zhang, Xiaokang and Ding, Xingchen and Pun, Man-On and Ma, Siwei},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
