@@ -7,8 +7,8 @@ from timm.models.layers import DropPath, to_2tuple, trunc_normal_
 import timm
 import cv2
 import torch.autograd as autograd
-from model.MedSAM.models.sam import sam_model_registry
-import model.MedSAM.cfg as cfg
+from MedSAM.models.sam import sam_model_registry
+import MedSAM.cfg as cfg
 import matplotlib.pyplot as plt
 
 class Norm2d(nn.Module):

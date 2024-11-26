@@ -16,17 +16,13 @@ import torch.nn.init
 from utils import *
 from torch.autograd import Variable
 from IPython.display import clear_output
-from model.UNetFormer_MMSAM import UNetFormer as UNetFormer
-from model.FTUNetFormer import ft_unetformer as FTUNetFormer
+from MedSAM.UNetFormer_MMSAM import UNetFormer as UNetFormer
 try:
     from urllib.request import URLopener
 except ImportError:
     from urllib import URLopener
 
-if MODEL == 'UNetformer':
-    net = UNetFormer(num_classes=N_CLASSES).cuda()
-elif MODEL == 'FTUNetformer':
-    net = FTUNetFormer(num_classes=N_CLASSES,if_sam=IF_SAM).cuda()
+net = UNetFormer(num_classes=N_CLASSES).cuda()
 
 params = 0
 for name, param in net.named_parameters():
