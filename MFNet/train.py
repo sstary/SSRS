@@ -16,13 +16,13 @@ import torch.nn.init
 from utils import *
 from torch.autograd import Variable
 from IPython.display import clear_output
-from MedSAM.UNetFormer_MMSAM import UNetFormer as UNetFormer
+from MedSAM.UNetFormer_MMSAM import UNetFormer as MFNet
 try:
     from urllib.request import URLopener
 except ImportError:
     from urllib import URLopener
 
-net = UNetFormer(num_classes=N_CLASSES).cuda()
+net = MFNet(num_classes=N_CLASSES).cuda()
 
 params = 0
 for name, param in net.named_parameters():
