@@ -74,7 +74,7 @@ print(params)
 # model.load_state_dict(new_params)
 model.train()
 model = model.cuda()
-model.load_state_dict(torch.load('./Train_Model/UNetFormer_PIRRG2VIRRG_epoch42_0.6843531379948411'))
+
 cudnn.benchmark = True
 cudnn.enabled = True
 d_aux = transDiscri(num_classes=N_CLASSES)
