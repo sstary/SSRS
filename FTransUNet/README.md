@@ -8,9 +8,9 @@ This repo is the official implementation of ['A Multilevel Multimodal Fusion Tra
 you can get the pre-trained model here: https://console.cloud.google.com/storage/browser/vit_models
 in the folder: vit_models/imagenet21k/
 
-Run the code by: python train.py
+Run the code by: python train.py (Train and Test both in this file, but you need to choose the corresponding code.)
 
-Test your model and draw the heatmaps by: python test_heatmap.py
+If you want to draw the heatmaps by: python test_heatmap.py
 
 Please cite our paper if you find it is useful for your research.
 
