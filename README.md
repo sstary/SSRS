@@ -12,22 +12,22 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 
 > **Mamba-based**:
 
-[RS^3Mamba](https://ieeexplore.ieee.org/abstract/document/10556777) (IEEE GRSL 2024).
+[RS^3Mamba](https://ieeexplore.ieee.org/abstract/document/10556777) (IEEE GRSL 2024) (**ESI Highly Cited Paper**).
 
 > **Unsupervised Domain Adaptation (UDA)**:
 
 [GLGAN](https://ieeexplore.ieee.org/document/10721444) (IEEE TGRS 2024).
 
-[MBATA_GAN](https://ieeexplore.ieee.org/abstract/document/10032584/) (IEEE TGRS 2023).
+[MBATA_GAN](https://ieeexplore.ieee.org/abstract/document/10032584/) (IEEE TGRS 2023) (**ESI Highly Cited Paper**).
 
 
 > **Multimodal Fusion**:
 
 [MFNet](https://arxiv.org/abs/2410.11160) (arxiv)
 
-[ASMFNet](https://ieeexplore.ieee.org/document/10736654) (IEEE JSTARS 2024)
+[ASMFNet](https://ieeexplore.ieee.org/document/10736654) (IEEE JSTARS 2024).
 
-[FTransUNet](https://ieeexplore.ieee.org/document/10458980) (IEEE TGRS 2024).
+[FTransUNet](https://ieeexplore.ieee.org/document/10458980) (IEEE TGRS 2024) (**ESI Highly Cited Paper**).
 
 [CMFNet](https://ieeexplore.ieee.org/abstract/document/9749821/) (IEEE JSTARS 2022).
 
