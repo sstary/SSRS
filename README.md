@@ -94,7 +94,7 @@ If these codes are helpful for your study, please cite:
 @ARTICLE{ma2024rs3mamba,
   author={Ma, Xianping and Zhang, Xiaokang and Pun, Man-On},
   journal={IEEE Geoscience and Remote Sensing Letters}, 
-  title={RS3Mamba: Visual State Space Model for Remote Sensing Image Semantic Segmentation}, 
+  title={RS$^3^Mamba: Visual State Space Model for Remote Sensing Image Semantic Segmentation}, 
   year={2024},
   volume={},
   number={},
