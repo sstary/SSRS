@@ -67,7 +67,7 @@ There are some scripts in utils folder including: split images, merge images, dr
 There are some other works in our group:
 > **Scene Classification**: [DF4LCZ](https://github.com/ctrlovefly/DF4LCZ) (IEEE TGRS 2024).
 
-> **Change Detection**: [GCD-DDPM](https://github.com/udrs/GCD) (IEEE TGRS 2024), [GVLM](https://github.com/zxk688/GVLM) (ISPRS 2023).
+> **Change Detection**: [GCD-DDPM](https://github.com/udrs/GCD) (IEEE TGRS 2024) (**ESI Highly Cited Paper**), [GVLM](https://github.com/zxk688/GVLM) (ISPRS 2023) (**ESI Highly Cited Paper**).
 
 > **Super-resolution**: [ASDDPM](https://github.com/littlebeen/ASDDPM-Adaptive-Semantic-Enhanced-DDPM) (IEEE JSTARS 2024), [GCRDN](https://github.com/zxk688/GCRDN) (IEEE JSTARS 2023).
 
