@@ -8,11 +8,11 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 
 [MFNet](https://arxiv.org/abs/2410.11160) (arxiv)
 
-[SAM_RS](https://ieeexplore.ieee.org/abstract/document/10636322) (IEEE TGRS 2024).
+[SAM_RS](https://ieeexplore.ieee.org/abstract/document/10636322) (IEEE TGRS 2024) (**ESI Highly Cited Paper**)..
 
 > **Mamba-based**:
 
-[RS^3Mamba](https://ieeexplore.ieee.org/abstract/document/10556777) (IEEE GRSL 2024) (**ESI Highly Cited Paper**).
+[RS^3Mamba](https://ieeexplore.ieee.org/abstract/document/10556777) (IEEE GRSL 2024) (**ESI Hot Paper**).
 
 > **Unsupervised Domain Adaptation (UDA)**:
 
