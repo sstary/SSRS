@@ -6,7 +6,7 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 
 > **SAM-based**:
 
-[MFNet](https://arxiv.org/abs/2410.11160) (arxiv)
+[MFNet](https://arxiv.org/abs/2410.11160) (IEEE TGRS 2025)
 
 [SAM_RS](https://ieeexplore.ieee.org/abstract/document/10636322) (IEEE TGRS 2024) (**ESI Highly Cited Paper**)..
 
@@ -23,7 +23,7 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 
 > **Multimodal Fusion**:
 
-[MFNet](https://arxiv.org/abs/2410.11160) (arxiv)
+[MFNet](https://arxiv.org/abs/2410.11160) (IEEE TGRS 2025)
 
 [ASMFNet](https://ieeexplore.ieee.org/document/10736654) (IEEE JSTARS 2024).
 
