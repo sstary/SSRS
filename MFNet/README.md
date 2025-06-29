@@ -1,4 +1,4 @@
-# [arxiv] MFNet
+# [IEEE TGRS 2025] MFNet
 
 This repo is the official implementation of ['MFNet: Fine-Tuning Segment Anything Model for Multimodal Remote Sensing Semantic Segmentation'](https://arxiv.org/abs/2410.11160).
 
