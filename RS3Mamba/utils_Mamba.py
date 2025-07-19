@@ -341,7 +341,10 @@ def metrics(predictions, gts, label_values=LABELS):
     print("F1Score :")
     for l_id, score in enumerate(F1Score):
         print("%s: %.4f" % (label_values[l_id], score))
-    print('mean F1Score: %.4f' % (np.nanmean(F1Score[:])))
+    if DATASET == 'Vaihingen':
+        print('mean F1Score: %.4f' % (np.nanmean(F1Score[:5])))
+    else:
+        print('mean F1Score: %.4f' % (np.nanmean(F1Score[:])))
     print("---")
 
     # Compute kappa coefficient
@@ -354,7 +357,10 @@ def metrics(predictions, gts, label_values=LABELS):
     # Compute MIoU coefficient
     MIoU = np.diag(cm) / (np.sum(cm, axis=1) + np.sum(cm, axis=0) - np.diag(cm))
     print(MIoU)
-    MIoU = np.nanmean(MIoU[:])
+    if DATASET == 'Vaihingen':
+        MIoU = np.nanmean(MIoU[:5])
+    else:
+        MIoU = np.nanmean(MIoU[:])
     print('mean MIoU: %.4f' % (MIoU))
     print("---")
 
