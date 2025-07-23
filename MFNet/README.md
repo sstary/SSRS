@@ -20,10 +20,13 @@ Draw the heatmap by: python test_heatmap.py
 Please cite our paper if you find it is useful for your research.
 
 ```
-@article{ma2024manet,
-  title={MANet: Fine-Tuning Segment Anything Model for Multimodal Remote Sensing Semantic Segmentation},
+@ARTICLE{ma2024manet,
   author={Ma, Xianping and Zhang, Xiaokang and Pun, Man-On and Huang, Bo},
-  journal={arXiv preprint arXiv:2410.11160},
-  year={2024}
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={A Unified Framework With Multimodal Fine-Tuning for Remote Sensing Semantic Segmentation}, 
+  year={2025},
+  volume={63},
+  number={},
+  pages={1-15}
 }
   ```
