@@ -23,7 +23,7 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 
 > **Multimodal Fusion**:
 
-[MFNet](https://arxiv.org/abs/2410.11160) (IEEE TGRS 2025)
+[MFNet](https://ieeexplore.ieee.org/abstract/document/11063320) (IEEE TGRS 2025)
 
 [ASMFNet](https://ieeexplore.ieee.org/document/10736654) (IEEE JSTARS 2024).
 
@@ -74,11 +74,14 @@ There are some other works in our group:
 ## Citations
 If these codes are helpful for your study, please cite:
 ```
-@article{ma2024manet,
-  title={MANet: Fine-Tuning Segment Anything Model for Multimodal Remote Sensing Semantic Segmentation},
+@ARTICLE{ma2024manet,
   author={Ma, Xianping and Zhang, Xiaokang and Pun, Man-On and Huang, Bo},
-  journal={arXiv preprint arXiv:2410.11160},
-  year={2024}
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={A Unified Framework With Multimodal Fine-Tuning for Remote Sensing Semantic Segmentation}, 
+  year={2025},
+  volume={63},
+  number={},
+  pages={1-15}
 }
 
 @article{ma2024frequency,
