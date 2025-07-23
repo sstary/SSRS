@@ -6,9 +6,9 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 
 > **SAM-based**:
 
-[MFNet](https://arxiv.org/abs/2410.11160) (IEEE TGRS 2025)
+[MFNet](https://ieeexplore.ieee.org/abstract/document/11063320) (IEEE TGRS 2025)
 
-[SAM_RS](https://ieeexplore.ieee.org/abstract/document/10636322) (IEEE TGRS 2024) (**ESI Highly Cited Paper**)..
+[SAM_RS](https://ieeexplore.ieee.org/abstract/document/10636322) (IEEE TGRS 2024) (**ESI Highly Cited Paper**).
 
 > **Mamba-based**:
 
