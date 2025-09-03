@@ -60,7 +60,7 @@ For Semantic Segmentation based on Mamba:
 ## Datasets
 Datasets including ISPRS Potsdam, ISPRS Vaihingen, loveDA can be downloaded [here](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/user_guides/2_dataset_prepare.md#prepare-datasets).
 
-Dataset MMHunan can be downloaded [here]([https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/user_guides/2_dataset_prepare.md#prepare-datasets](https://github.com/LauraChow/HunanMultimodalDataset)).
+Dataset MMHunan can be downloaded [here](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/user_guides/2_dataset_prepare.md#prepare-datasets](https://github.com/LauraChow/HunanMultimodalDataset).
 
 ## Scripts
 There are some scripts in utils folder including: split images, merge images, draw loss curves.
