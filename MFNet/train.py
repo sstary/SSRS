@@ -59,25 +59,17 @@ print('Others: ', params-params1-params2)
 
 # print(net)
 
-print("training : ", train_ids)
-print("testing : ", test_ids)
+print("training : ", len(train_ids))
+print("testing : ", len(test_ids))
 train_set = ISPRS_dataset(train_ids, cache=CACHE)
 train_loader = torch.utils.data.DataLoader(train_set,batch_size=BATCH_SIZE)
 
 base_lr = 0.01
-params_dict = dict(net.named_parameters())
-params = []
-for key, value in params_dict.items():
-    if '_D' in key:
-        # Decoder weights are trained at the nominal learning rate
-        params += [{'params':[value],'lr': base_lr}]
-    else:
-        # Encoder weights are trained at lr / 2 (we have VGG-16 weights as initialization)
-        params += [{'params':[value],'lr': base_lr / 2}]
-
 optimizer = optim.SGD(net.parameters(), lr=base_lr, momentum=0.9, weight_decay=0.0005)
 # We define the scheduler
 scheduler = optim.lr_scheduler.MultiStepLR(optimizer, [25, 35, 45], gamma=0.1)
+# scheduler = optim.lr_scheduler.MultiStepLR(optimizer, [12, 17, 22], gamma=0.1)
+# scheduler = optim.lr_scheduler.MultiStepLR(optimizer, [5, 7, 9], gamma=0.1)
 
 def test(net, test_ids, all=False, stride=WINDOW_SIZE[0], batch_size=BATCH_SIZE, window_size=WINDOW_SIZE):
     # Use the network on the test set
@@ -89,7 +81,11 @@ def test(net, test_ids, all=False, stride=WINDOW_SIZE[0], batch_size=BATCH_SIZE,
         test_images = (1 / 255 * np.asarray(io.imread(DATA_FOLDER.format(id)), dtype='float32') for id in test_ids)
     test_dsms = (np.asarray(io.imread(DSM_FOLDER.format(id)), dtype='float32') for id in test_ids)
     test_labels = (np.asarray(io.imread(LABEL_FOLDER.format(id)), dtype='uint8') for id in test_ids)
-    eroded_labels = (convert_from_color(io.imread(ERODED_FOLDER.format(id))) for id in test_ids)
+    if DATASET == 'Hunan':
+        eroded_labels = ((np.asarray(io.imread(ERODED_FOLDER.format(id)), dtype='int64')) for id in test_ids)
+    else:
+        eroded_labels = (convert_from_color(io.imread(ERODED_FOLDER.format(id))) for id in test_ids)
+
     all_preds = []
     all_gts = []
 
@@ -109,7 +105,10 @@ def test(net, test_ids, all=False, stride=WINDOW_SIZE[0], batch_size=BATCH_SIZE,
 
                 min = np.min(dsm)
                 max = np.max(dsm)
-                dsm = (dsm - min) / (max - min)
+                if DATASET == 'Hunan':
+                    dsm = (dsm - min) / (max - min + 1e-8)
+                else:
+                    dsm = (dsm - min) / (max - min)
                 dsm_patches = [np.copy(dsm[x:x + w, y:y + h]) for x, y, w, h in coords]
                 dsm_patches = np.asarray(dsm_patches)
                 dsm_patches = Variable(torch.from_numpy(dsm_patches).cuda(), volatile=True)
@@ -128,9 +127,13 @@ def test(net, test_ids, all=False, stride=WINDOW_SIZE[0], batch_size=BATCH_SIZE,
             all_preds.append(pred)
             all_gts.append(gt_e)
             clear_output()
-            
-    accuracy = metrics(np.concatenate([p.ravel() for p in all_preds]),
-                       np.concatenate([p.ravel() for p in all_gts]).ravel())
+    
+    if DATASET == 'Hunan':
+        accuracy = metrics_loveda(np.concatenate([p.ravel() for p in all_preds]),
+                        np.concatenate([p.ravel() for p in all_gts]).ravel())
+    else:
+        accuracy = metrics(np.concatenate([p.ravel() for p in all_preds]),
+                        np.concatenate([p.ravel() for p in all_gts]).ravel())
     if all:
         return accuracy, all_preds, all_gts
     else:
@@ -143,7 +146,7 @@ def train(net, optimizer, epochs, scheduler=None, weights=WEIGHTS, save_epoch=1)
     weights = weights.cuda()
 
     iter_ = 0
-    MIoU_best = 0.82
+    MIoU_best = 0.00
     for e in range(1, epochs + 1):
         if scheduler is not None:
             scheduler.step()
@@ -153,7 +156,8 @@ def train(net, optimizer, epochs, scheduler=None, weights=WEIGHTS, save_epoch=1)
             data, dsm, target = Variable(data.cuda()), Variable(dsm.cuda()), Variable(target.cuda())
             optimizer.zero_grad()
             output = net(data, dsm, mode='Train')
-            loss = CrossEntropy2d(output, target, weight=weights)
+            loss = loss_calc(output, target, weights)
+            # loss = CrossEntropy2d(output, target, weight=weights)
             loss.backward()
             optimizer.step()
 
@@ -186,6 +190,8 @@ def train(net, optimizer, epochs, scheduler=None, weights=WEIGHTS, save_epoch=1)
                     torch.save(net.state_dict(), './resultsv/{}_epoch{}_{}'.format(MODEL, e, MIoU))
                 elif DATASET == 'Potsdam':
                     torch.save(net.state_dict(), './resultsp/{}_epoch{}_{}'.format(MODEL, e, MIoU))
+                elif DATASET == 'Hunan':
+                    torch.save(net.state_dict(), './resultsh/{}_epoch{}_{}'.format(MODEL, e, MIoU))
                 MIoU_best = MIoU
     print('MIoU_best: ', MIoU_best)
 
@@ -209,5 +215,13 @@ elif MODE == 'Test':
         print("MIoU: ", MIoU)
         for p, id_ in zip(all_preds, test_ids):
             img = convert_to_color(p)
-            io.imsave('./resultsp/inference_UNetFormer_{}_tile_{}.png'.format('base', id_), img)
+            io.imsave('./resultsp/inference_UNetFormer_{}_tile_{}.png'.format('huge', id_), img)
 
+    elif DATASET == 'Hunan':
+        net.load_state_dict(torch.load('./resultsh/YOUR_MODEL''), strict=False)
+        net.eval()
+        MIoU, all_preds, all_gts = test(net, test_ids, all=True, stride=128)
+        print("MIoU: ", MIoU)
+        for p, id_ in zip(all_preds, test_ids):
+            img = convert_to_color(p)
+            io.imsave('./resultsh/inference_UNetFormer_{}_tile_{}.png'.format('base', id_), img)
