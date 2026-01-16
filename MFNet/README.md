@@ -7,6 +7,8 @@ This repo is the official implementation of ['A Unified Framework With Multimoda
 ## Usage
 You can get the pre-trained model here: https://github.com/facebookresearch/segment-anything?tab=readme-ov-file#model-checkpoints
 
+The script for MMHunan dataset processing: scripts/process_hunan.py
+
 The core modules are in ./MedSAM/models/ImageEncoder and ./MedSAM/models/sam
 
 The current mode is MMLoRA. You can choose MMAdapter or MMLoRA by the 'mod' hyper-parameter in **./MedSAM/cfg.py**, and also need modify the Line 523/524 in **SSRS/MFNet
