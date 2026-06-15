@@ -4,6 +4,10 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 
 ## Methods
 
+> **DINOv3-based**:
+
+EVSR (submitted to TIP).
+
 > **SAM-based**:
 
 [MFNet](https://ieeexplore.ieee.org/abstract/document/11063320) (IEEE TGRS 2025) (**ESI Highly Cited Paper**).
