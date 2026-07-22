@@ -4,17 +4,15 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 
 ## Methods
 
-> **DINOv3-based**:
+> **Single-modal Segmentation**:
 
 EVSR (submitted to TIP).
 
-> **SAM-based**:
+[DeepKANSeg](https://ieeexplore.ieee.org/abstract/document/11615317) (IEEE TGRS 2026).
 
 [MFNet](https://ieeexplore.ieee.org/abstract/document/11063320) (IEEE TGRS 2025) (**ESI Highly Cited Paper**).
 
 [SAM_RS](https://ieeexplore.ieee.org/abstract/document/10636322) (IEEE TGRS 2024) (**ESI Highly Cited Paper**).
-
-> **Mamba-based**:
 
 [RS^3Mamba](https://ieeexplore.ieee.org/abstract/document/10556777) (IEEE GRSL 2024) (**ESI Hot Paper**).
 
@@ -23,7 +21,6 @@ EVSR (submitted to TIP).
 [GLGAN](https://ieeexplore.ieee.org/document/10721444) (IEEE TGRS 2024).
 
 [MBATA_GAN](https://ieeexplore.ieee.org/abstract/document/10032584/) (IEEE TGRS 2023) (**ESI Highly Cited Paper**).
-
 
 > **Multimodal Fusion**:
 
@@ -80,6 +77,14 @@ There are some other works in our group:
 ## Citations
 If these codes are helpful for your study, please cite:
 ```
+@ARTICLE{wang2026KAN,
+  author={Wang, Ziyao and Hu, Yin and Zhang, Xiaokang and Ye, Yuanxin and Ma, Xianping and Pun, Man-On},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Kolmogorov-Arnold Network for Remote Sensing Image Semantic Segmentation}, 
+  year={2026},
+  pages={1-1}
+}
+
 @ARTICLE{ma2024manet,
   author={Ma, Xianping and Zhang, Xiaokang and Pun, Man-On and Huang, Bo},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
@@ -171,7 +176,7 @@ If these codes are helpful for your study, please cite:
 ```
 
 ## Contact 
-Xianping Ma ([xianpingma@ling.cuhk.edu.cn](xianpingma@ling.cuhk.edu.cn)), ([ma.xianping125@gmail.com](haonan1wang@gmail.com))
+Xianping Ma ([mxp@swjtu.edu.cn](mxp@swjtu.edu.cn)), ([ma.xianping125@gmail.com](ma.xianping125@gmail.com))
 
 ## Star History
 
