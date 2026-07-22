@@ -10,8 +10,6 @@ EVSR (submitted to TIP).
 
 [DeepKANSeg](https://ieeexplore.ieee.org/abstract/document/11615317) (IEEE TGRS 2026).
 
-[MFNet](https://ieeexplore.ieee.org/abstract/document/11063320) (IEEE TGRS 2025) (**ESI Highly Cited Paper**).
-
 [SAM_RS](https://ieeexplore.ieee.org/abstract/document/10636322) (IEEE TGRS 2024) (**ESI Highly Cited Paper**).
 
 [RS^3Mamba](https://ieeexplore.ieee.org/abstract/document/10556777) (IEEE GRSL 2024) (**ESI Hot Paper**).
