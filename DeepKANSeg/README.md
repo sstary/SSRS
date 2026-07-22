@@ -21,6 +21,6 @@ Please cite our paper if you find it is useful for your research.
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={Kolmogorov-Arnold Network for Remote Sensing Image Semantic Segmentation}, 
   year={2026},
-  pages={1-1}
+  pages={1-17}
 }
   ```
