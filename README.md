@@ -80,7 +80,7 @@ If these codes are helpful for your study, please cite:
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={Kolmogorov-Arnold Network for Remote Sensing Image Semantic Segmentation}, 
   year={2026},
-  pages={1-1}
+  pages={1-17}
 }
 
 @ARTICLE{ma2024manet,
