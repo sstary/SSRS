@@ -178,4 +178,4 @@ Xianping Ma ([mxp@swjtu.edu.cn](mxp@swjtu.edu.cn)), ([ma.xianping125@gmail.com](
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=sstary/SSRS&type=Date)](https://star-history.com/#sstary/SSRS&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=sstary/SSRS&type=Date)](https://star-history.dera.page/#sstary/SSRS&Date)
