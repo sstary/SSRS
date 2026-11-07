@@ -6,11 +6,9 @@ This repo is the PyTorch implementation of some works related to remote sensing 
 
 > **Single-modal Segmentation**:
 
-EVSR (submitted to TIP).
+[EVSR](https://ieeexplore.ieee.org/document/11780711) (IEEE TIP 2026).
 
 [DeepKANSeg](https://ieeexplore.ieee.org/abstract/document/11615317) (IEEE TGRS 2026).
-
-[MFNet](https://ieeexplore.ieee.org/abstract/document/11063320) (IEEE TGRS 2025) (**ESI Highly Cited Paper**).
 
 [SAM_RS](https://ieeexplore.ieee.org/abstract/document/10636322) (IEEE TGRS 2024) (**ESI Highly Cited Paper**).
 
@@ -77,6 +75,17 @@ There are some other works in our group:
 ## Citations
 If these codes are helpful for your study, please cite:
 ```
+@ARTICLE{EVSR,
+  author={Ma, Xianping and Xie, Wanxin and Yu, Weikang and Zhang, Xiaokang and Ye, Yuanxin},
+  journal={IEEE Transactions on Image Processing}, 
+  title={EVSR: Expert-Driven Visibility-Aware Selective Representation Learning from Foundation Vision Models for Remote Sensing Semantic Segmentation}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-16},
+}
+
+
 @ARTICLE{wang2026KAN,
   author={Wang, Ziyao and Hu, Yin and Zhang, Xiaokang and Ye, Yuanxin and Ma, Xianping and Pun, Man-On},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
