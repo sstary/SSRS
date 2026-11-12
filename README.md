@@ -78,13 +78,11 @@ If these codes are helpful for your study, please cite:
 @ARTICLE{EVSR,
   author={Ma, Xianping and Xie, Wanxin and Yu, Weikang and Zhang, Xiaokang and Ye, Yuanxin},
   journal={IEEE Transactions on Image Processing}, 
-  title={EVSR: Expert-Driven Visibility-Aware Selective Representation Learning from Foundation Vision Models for Remote Sensing Semantic Segmentation}, 
+  title={EVSR: Expert-Driven Visibility-Aware Selective Representation Learning From Foundation Vision Models for Remote Sensing Semantic Segmentation}, 
   year={2026},
-  volume={},
-  number={},
-  pages={1-16},
+  volume={35},
+  pages={11688-11703},
 }
-
 
 @ARTICLE{wang2026KAN,
   author={Wang, Ziyao and Hu, Yin and Zhang, Xiaokang and Ye, Yuanxin and Ma, Xianping and Pun, Man-On},
